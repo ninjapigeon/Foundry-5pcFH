@@ -1,0 +1,49 @@
+{
+  "name": "5pcFromHome",
+  "title": "5 Parsecs From Home",
+  "description": "A simple system for playing 5pfh in Foundry.",
+  "version": "1.0.0",
+  "templateVersion": 2,
+  "author": "ninjapigeon",
+  "scripts": [
+    "scripts/system-script-1.js",
+    "scripts/system-script-2.js"
+  ],
+  "esmodules": [
+    "scripts/system-module-1.mjs"
+  ],
+  "styles": [
+    "styles/system-styles-1.css",
+    "styles/system-styles-2.css"
+  ],
+  "packs": [
+    {
+      "name": "items",
+      "label": "Gear",
+      "path": "packs/items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "npcs",
+      "label": "NPCs",
+      "path": "packs/npcs.db",
+      "entity": "Actor"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "initiative": "1d6",
+  "gridDistance": 2,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "resources.toughness",
+  "secondaryTokenAttribute": "null",
+  "url": "https://github.com/ninjapigeon/Foundry-5pcFH",
+  "manifest": "https://github.com/ninjapigeon/Foundry-5pcFH/system.json",
+  "download": "https://github.com/ninjapigeon/Foundry-5pcFH/archive/main/5pcfromhome-main.zip"
+}

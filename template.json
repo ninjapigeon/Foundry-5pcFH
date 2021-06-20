@@ -1,0 +1,43 @@
+{
+"Actor": {
+  "types": ["PC", "NPC", "Beast"],
+  "templates": {
+    "resources": { //Should have toughness,reaction,savvy,combat skill,and speed or move.
+      "toughness": {
+        "min": 1,
+        "value": 3,
+        "max": 6
+      }
+    }
+  },
+  "PC": {
+    "templates": ["background", "resources"],
+    "reaction": {
+      "value": 1,
+      "max": 6
+    }
+  },
+  "NPC": {
+    "templates": ["resources"]
+  },
+  "Beast": {
+    "templates": ["background", "resources"],
+    "reaction": {
+      "value": 1,
+      "max": 6
+    }
+  }
+},
+"Item": {
+  "types": ["gear", "implant"],
+  "templates": {
+  },
+  "gear": {
+    "templates":["name","Range","Shots","Damage","Traits"]
+  },
+  "implant": {
+    "templates": ["name","traits"],
+    "cost": 2
+  }
+}
+}
