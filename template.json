@@ -2,26 +2,43 @@
 "Actor": {
   "types": ["PC", "NPC", "Beast"],
   "templates": {
-    "resources": { //Should have toughness,reaction,savvy,combat skill,and speed or move.
+    "attributes": {
+      "reaction": {
+        "min": 1,
+        "value": 3,
+        "max": 6
+      },
       "toughness": {
         "min": 1,
         "value": 3,
         "max": 6
+      },
+      "combat": {
+        "min": 0,
+        "value": 0,
+        "max": 5
+      },
+      "savvy": {
+        "min": 1,
+        "value": 3,
+        "max": 5
+      },
+      "move": {
+        "min": 1,
+        "value": 4,
+        "max": 8
       }
     }
   },
   "PC": {
-    "templates": ["background", "resources"],
-    "reaction": {
-      "value": 1,
-      "max": 6
-    }
+    "templates": ["attributes", "resources"],
+
   },
   "NPC": {
-    "templates": ["resources"]
+    "templates": ["attributes", "AI",]
   },
   "Beast": {
-    "templates": ["background", "resources"],
+    "templates": ["attributes", "AI",],
     "reaction": {
       "value": 1,
       "max": 6
