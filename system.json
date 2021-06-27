@@ -1,19 +1,14 @@
 {
   "name": "5pcFromHome",
   "title": "5 Parsecs From Home",
-  "description": "A simple system for playing 5pfh in FoundryVTT.",
+  "description": "A simple system for playing 5PfH in FoundryVTT. ",
   "version": "1.0.0",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "0.8.6",
   "templateVersion": 2,
   "author": "ninjapigeon",
-  "scripts": [
-    "scripts/system-script-1.js",
-    "scripts/system-script-2.js"
-  ],
-  "esmodules": [
-    "scripts/system-module-1.mjs"
-  ],
+  "scripts": [  ],
+  "esmodules": [  ],
   "styles": [
     "styles/system-styles-1.css",
     "styles/system-styles-2.css"
