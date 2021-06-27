@@ -1,0 +1,9 @@
+{
+"ACTOR.TypeCharacter": "Player Character",
+"ACTOR.TypeNpc": "Non-Player Character",
+"ACTOR.TypeBeast": "Beast",
+"ITEM.TypeConsumable": "Consumable",
+"ITEM.TypeImplant": "Implant",
+"ITEM.TypeGear": "Gear",
+"ITEM.TypeWeapon": "Weapon",
+}
