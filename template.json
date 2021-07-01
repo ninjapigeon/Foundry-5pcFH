@@ -19,7 +19,7 @@
         "max": 5
       },
       "savvy": {
-        "min": 1,
+        "min": 0,
         "value": 3,
         "max": 5
       },
@@ -27,7 +27,12 @@
         "min": 1,
         "value": 4,
         "max": 8
-      }
+      },
+      "luck": {
+        "min": 0,
+        "value": 0,
+        "max": 3
+      },
     }
   },
   "PC": {
